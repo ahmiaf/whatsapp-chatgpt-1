@@ -6,9 +6,9 @@ import { ChatGPTAPIBrowser } from 'chatgpt'
 // Environment variables
 require("dotenv").config()
 
-// Prefix check
+// Prefix check '!gpt
 const prefixEnabled = process.env.PREFIX_ENABLED == "true"
-const prefix = '!gpt'
+const prefix = ''
 
 // Whatsapp Client
 const client = new Client()
